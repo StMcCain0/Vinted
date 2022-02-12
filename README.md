@@ -1,46 +1,16 @@
-# Vinted Discord BOT
+Nouvelle version :
 
-Un bot Discord pour Vinted, qui envoie un message lorsqu'une nouvelle annonce est publiée (selon certains critères).
+-Ajout d'une fonctionnalité pour envoyer un message au vendeur
+![image](![image](https://user-images.githubusercontent.com/99037050/153257457-3b735464-70e3-4ba7-b21a-4d8eb22f8af9.png)
 
-## Distrobot.fr
 
-Bien que le bot open source fonctionne parfaitement et soit très rapide, sa configuration et son installation peut être laborieuse. C'est pour cela que nous vous proposons également notre service https://distrobot.fr :
 
-|                                             | **Bot open source** | **Distrobot** |
-|---------------------------------------------|---------------------|---------------|
-| Prix                                          | Gratuit                   |  à partir de 9.90€/mois             |
-| Mises à jour régulières                     | ✅                   | ✅             |
-| Recherches avancées                         | ✅                   | ✅             |
-| Vitesse de synchronisation                  | 15s                 | < 5s            |
-| En ligne 24/24 7/7                          |  ❌  (sauf VPS payant)                | ✅             |
-| Utilisation de proxies (pour + de rapidité) |   ❌                  | ✅             |
-| Configuration en 3 clics                    |   ❌                  | ✅             |
-| Salons avec conseils de professionnels      |   ❌                  | ✅             |
-| Soutien du projet                           |  ❌                   | ✅             |
+-Ajout de la fonctionnalité random sur les embeds
 
-[![banner](./banner.png)](https://distrobot.fr)
 
-## Abonnez-vous...
+-Vidéos pour expliquer comment cela fonctionne : 
+https://www.youtube.com/watch?v=PM7ZGmpvm8c
 
-Pour s'abonner, entrez n'importe quelle URL Vinted. Le bot déterminera automatiquement les filtres à appliquer aux résultats.
 
-![abo](./examples/abonner.png)
 
-## ...et recevez vos notifications !
 
-![notif](./examples/notif.png)
-
-## Installation
-
-**Je maintiens bénévolement ce bot sur mon temps libre. Pour supporter ce projet, n'hésitez pas à [faire un don](https://paypal.com/andr0z). Si besoin, je suis également disponible pour aider pour l'installation sur [Twitter](https://twitter.com/androz2091) si besoin.**
-
-Prérequis :
-
-* Node.js
-* NPM
-
-Installation :
-
-* Installer les dépendances avec `npm install`
-* Renommer le fichier `config.sample.json` en `config.json`
-* Lancer avec `node index.js`
